@@ -1,0 +1,81 @@
+<html> 
+
+<head> <title>bankok tour</title> 
+
+<style>
+table,th,td{ border:1px solid black;
+border-collapse:collapse;
+padding:10px;
+text-align:center;
+font-size:20px;
+width:400px;
+ }
+
+body  { 
+width:400px;
+margin:auto;
+ 
+
+
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+  
+</style>
+</head>
+<body> 
+<h1><center><i>Bangkok</i></center></h1> 
+<table> 
+<tr><th>Name of places to visit</th></tr> 
+<tr><td>(1)Wat Arun: A Heaven-Like Peaceful Place</td></tr> 
+<tr><td>(2)Jim Thompson’s House: Let Your Inner Spy Come Alive</td></tr> 
+<tr><td>(3)Grand Palace: Get A Glimpse Of The Thai Royalty</td></tr> 
+</table> 
+<iframe src="https://en.wikipedia.org/wiki/Bangkok" width="400" height="300"></iframe>
+</body> 
+</html>
